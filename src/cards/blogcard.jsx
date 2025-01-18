@@ -13,7 +13,7 @@ export default function Blogscard({ image, content }) {
       <ul className="flex justify-center items-center gap-6 ">
         <li className="h-14 text-lg font-semibold w-14 bg-red-700 text-center text-white">
           15
-          <p className="text-sm text-white"> jan</p>
+          <p className="text-sm text-white"> Jan</p>
         </li>
         <li>
           <img className="h-8" src="\image\profile.svg" alt="profile" />
