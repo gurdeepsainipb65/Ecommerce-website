@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Margherita",
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/margherita-pizza-c459ab0c.jpg",
+    "description": "Classic pizza with tomato sauce,",
+    "price": 8.99,
+    "ingredients": ["Tomato Sauce", "Mozzarella", "Basil"]
+  },
+  {
+    "name": "Veggie Delight",
+    "image": "https://th.bing.com/th/id/OIP.6b_BciyVJSM1SPhCFADXBwHaE8?rs=1&pid=ImgDetMain",
+    "description": "A mix of fresh vegetables",
+    "price": 9.99,
+    "ingredients": [
+      "Tomato Sauce",
+      "Mozzarella",
+      "Bell Peppers",
+      "Onions",
+      "Mushrooms"
+    ]
+  },
+  {
+    "name": "Spinach & Feta",
+    "image": "https://th.bing.com/th/id/OIP.U9nU-HdjFk5tm2R9-LLffQHaE8?rs=1&pid=ImgDetMain",
+    "description": "Topped with fresh spinach,",
+    "price": 10.49,
+    "ingredients": [
+      "Tomato Sauce",
+      "Mozzarella",
+      "Spinach",
+      "Feta Cheese",
+      "Garlic"
+    ]
+  },
+  {
+    "name": "Four Cheese",
+    "image": "https://thumbs.dreamstime.com/b/four-cheese-pizza-close-up-generative-ai-high-quality-illustration-276400410.jpg",
+    "description": "A cheesy blend of mozzarella,",
+    "price": 10.99,
+    "ingredients": [
+      "Tomato Sauce",
+      "Mozzarella",
+      "Cheddar",
+      "Parmesan",
+      "Gouda"
+    ]
+  },
+  {
+    "name": "Mushroompizza",
+    "image": "https://p4.wallpaperbetter.com/wallpaper/72/766/456/mushrooms-pizza-tomatoes-olives-wallpaper-preview.jpg",
+    "description": "mushrooms and a hint of garlic.",
+    "price": 10.49,
+    "ingredients": ["Tomato Sauce", "Mozzarella", "Mushrooms", "Garlic"]
+  },
+  {
+    "name": "Mediterranean",
+    "image": "https://piquantpost.com/cdn/shop/articles/YsyeK4p9oqYOt5JUQA0oo_1200x1200.jpg?v=1666844561",
+    "description": "A Mediterranean mix of olives,",
+    "price": 11.49,
+    "ingredients": [
+      "Tomato Sauce",
+      "Mozzarella",
+      "Olives",
+      "Sun-Dried Tomatoes",
+      "Artichokes"
+    ]
+  },
+  {
+    "name": "Garden Fresh",
+    "image": "https://images.heb.com/is/image/HEBGrocery/recipe-hm-large/garden-fresh-veggie-pizza-recipe.jpg",
+    "description": "A fresh mix of vegetables",
+    "price": 9.49,
+    "ingredients": [
+      "Tomato Sauce",
+      "Mozzarella",
+      "Zucchini",
+      "Cherry Tomatoes",
+      "Spinach",
+      "Red Onions"
+    ]
+  },
+  {
+    "name": "Spinach cheese",
+    "image": "https://th.bing.com/th/id/OIP.U9nU-HdjFk5tm2R9-LLffQHaE8?rs=1&pid=ImgDetMain",
+    "description": "Topped with fresh spinach,",
+    "price": 10.49,
+    "ingredients": [
+      "Tomato Sauce",
+      "Mozzarella",
+      "Spinach",
+      "Feta Cheese",
+      "Garlic"
+    ]
+  }
+]

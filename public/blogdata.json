@@ -1,0 +1,109 @@
+[
+  {
+    "title": "Margherita - A Timeless Classic",
+    "image": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/margherita-pizza-c459ab0c.jpg",
+    "content": "The Margherita pizza is a timeless classic that never goes out of style. With a base of rich tomato sauce, gooey mozzarella, and fresh basil, it captures the essence of simplicity and flavor.",
+    "price": 8.99,
+    "ingredients": ["Tomato Sauce", "Mozzarella", "Basil"]
+  },
+  {
+    "title": "Veggie Delight - A Symphony of Freshness",
+    "image": "https://th.bing.com/th/id/OIP.6b_BciyVJSM1SPhCFADXBwHaE8?rs=1&pid=ImgDetMain",
+    "content": "Packed with vibrant vegetables, the Veggie Delight pizza combines bell peppers, onions, mushrooms, and a tangy tomato base, offering a wholesome and delicious experience.",
+    "price": 9.99,
+    "ingredients": [
+      "Tomato Sauce",
+      "Mozzarella",
+      "Bell Peppers",
+      "Onions",
+      "Mushrooms"
+    ]
+  },
+  {
+    "title": "Spinach & Feta - A Gourmet Treat",
+    "image": "https://th.bing.com/th/id/OIP.U9nU-HdjFk5tm2R9-LLffQHaE8?rs=1&pid=ImgDetMain",
+    "content": "Indulge in the delightful combination of fresh spinach, feta cheese, and a hint of garlic. This pizza is a must-try for cheese lovers looking for a gourmet twist.",
+    "price": 10.49,
+    "ingredients": [
+      "Tomato Sauce",
+      "Mozzarella",
+      "Spinach",
+      "Feta Cheese",
+      "Garlic"
+    ]
+  },
+  {
+    "title": "Four Cheese - A Cheesy Extravaganza",
+    "image": "https://thumbs.dreamstime.com/b/four-cheese-pizza-close-up-generative-ai-high-quality-illustration-276400410.jpg",
+    "content": "Experience the ultimate cheese lover's dream with mozzarella, cheddar, parmesan, and gouda, all melting together for a rich and indulgent treat.",
+    "price": 10.99,
+    "ingredients": [
+      "Tomato Sauce",
+      "Mozzarella",
+      "Cheddar",
+      "Parmesan",
+      "Gouda"
+    ]
+  },
+  {
+    "title": "Mushroom Pizza - Earthy and Aromatic",
+    "image": "https://p4.wallpaperbetter.com/wallpaper/72/766/456/mushrooms-pizza-tomatoes-olives-wallpaper-preview.jpg",
+    "content": "Savor the earthy flavors of mushrooms complemented by a touch of garlic and a classic tomato base. This pizza is a true delight for mushroom enthusiasts.",
+    "price": 10.49,
+    "ingredients": ["Tomato Sauce", "Mozzarella", "Mushrooms", "Garlic"]
+  },
+  {
+    "title": "Mediterranean - A Taste of the Coast",
+    "image": "https://piquantpost.com/cdn/shop/articles/YsyeK4p9oqYOt5JUQA0oo_1200x1200.jpg?v=1666844561",
+    "content": "Transport yourself to the Mediterranean with this pizza, featuring olives, sun-dried tomatoes, and artichokes on a bed of gooey mozzarella and tomato sauce.",
+    "price": 11.49,
+    "ingredients": [
+      "Tomato Sauce",
+      "Mozzarella",
+      "Olives",
+      "Sun-Dried Tomatoes",
+      "Artichokes"
+    ]
+  },
+  {
+    "title": "Garden Fresh - Nature's Best on a Pizza",
+    "image": "https://images.heb.com/is/image/HEBGrocery/recipe-hm-large/garden-fresh-veggie-pizza-recipe.jpg",
+    "content": "Celebrate the bounty of nature with zucchini, cherry tomatoes, spinach, and red onions. The Garden Fresh pizza is perfect for veggie lovers seeking a fresh, healthy choice.",
+    "price": 9.49,
+    "ingredients": [
+      "Tomato Sauce",
+      "Mozzarella",
+      "Zucchini",
+      "Cherry Tomatoes",
+      "Spinach",
+      "Red Onions"
+    ]
+  },
+  {
+    "title": "Spinach Cheese - Simple and Delightful",
+    "image": "https://th.bing.com/th/id/OIP.U9nU-HdjFk5tm2R9-LLffQHaE8?rs=1&pid=ImgDetMain",
+    "content": "A delightful pizza with fresh spinach, feta cheese, and a touch of garlic. It’s the perfect choice for those who love a combination of simplicity and flavor.",
+    "price": 10.49,
+    "ingredients": [
+      "Tomato Sauce",
+      "Mozzarella",
+      "Spinach",
+      "Feta Cheese",
+      "Garlic"
+    ]
+  },
+
+  {
+    "title": "Simple and Delightful",
+    "image": "https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?t=st=1737186359~exp=1737189959~hmac=461d8cbbcc7d27a6349978fc6e2b1ff63aa1a4eb95f1bc142c5ef59f96f58441&w=740",
+    "content": "A delightful pizza with fresh spinach, feta cheese, and a touch of garlic. It’s the perfect choice for those who love a combination of simplicity and flavor.",
+    "price": 10.49,
+    "ingredients": [
+      "Tomato Sauce",
+      "Mozzarella",
+      "Spinach",
+      "Feta Cheese",
+      "Garlic"
+    ]
+  }
+]
