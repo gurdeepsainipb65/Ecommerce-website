@@ -2,7 +2,7 @@
 import Readbutton from "./readbutton";
 import Aos from "aos";
 
-export default function Blogscard({ image, content }) {
+export default function CardBlog({ image, content }) {
   return (
     <div
       data-aos="fade-up"
