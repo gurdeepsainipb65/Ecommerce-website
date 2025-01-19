@@ -9,7 +9,7 @@ export default function Nav() {
   return (
     <div className="flex flex-col lg:flex-row w-full h-auto">
       {/* Logo Section */}
-      <div className="w-full lg:w-1/5 flex justify-center lg:justify-start">
+      <div className=" hidden w-full lg:w-1/5 lg:flex justify-center lg:justify-start">
         <img
           className="p-4 m-4 max-w-[150px] lg:max-w-full"
           src="/image/logo.svg"
@@ -35,7 +35,7 @@ export default function Nav() {
         {/* Navbar Section */}
         <div className="bg-gray-900">
           <nav>
-            <ul className=" bg-black flex flex-col lg:flex-row items-center justify-between px-4 sm:px-6 lg:px-8 py-4 font-bold text-sm sm:text-base lg:text-lg space-y-4 lg:space-y-0">
+            <ul className=" bg-black flex flex-col lg:flex-row justify-between items-center px-4 sm:px-6 lg:px-8 py-4 font-bold text-sm sm:text-base lg:text-lg space-y-4 lg:space-y-0">
               {/* Desktop Navigation Links */}
               <div className="hidden lg:flex items-center gap-10">
                 <Link to="/" className="hover:text-red-600">
@@ -56,10 +56,11 @@ export default function Nav() {
               </div>
 
               {/* Hamburger Button for Mobile */}
-              <div className="block lg:hidden">
+              <div className="flex justify-between items-center gap-14 lg:hidden">
                 <button onClick={Toggle}>
                   <img className="h-8 w-8" src="/image/menu.svg" alt="Menu" />
                 </button>
+                <img src="\image\logoWhite.svg" alt="" />
               </div>
 
               {/* Mobile Navigation Links (Initially Hidden) */}
