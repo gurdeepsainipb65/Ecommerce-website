@@ -1,7 +1,6 @@
 import Blogscard from "../cards/blogcard";
 import { useState, useEffect } from "react";
 import axios from "axios";
-import Item from "./item";
 import Footer from "../cards/footer";
 
 export default function Blogs() {

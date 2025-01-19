@@ -1,4 +1,4 @@
-import Item from "../component/item";
+
 import Readbutton from "./readbutton";
 import Aos from "aos";
 
