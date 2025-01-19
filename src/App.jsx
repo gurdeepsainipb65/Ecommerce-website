@@ -1,4 +1,5 @@
 import Nav from "./component/navbar";
+import React from "react";
 import Home from "./component/home";
 import Shop1 from "./component/Shop1";
 import ProductDetail from "./cards/ProductDetail";
@@ -15,9 +16,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/aboutus" element={<Aboutus />}></Route>
-          <Route path="/shop" element={<Shop1 />} />
+          <Route path="/shop" element={<Shop1 />}></Route>
           <Route path="/productdetail/:id" element={<ProductDetail />}></Route>
-          <Route path="/blog" element={<Blog1/>}></Route>
+          <Route path="/blog" element={<Blog1 />}></Route>
         </Routes>
       </Router>
     </div>
