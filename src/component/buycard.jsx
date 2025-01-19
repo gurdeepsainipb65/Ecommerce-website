@@ -14,8 +14,8 @@ export default function Buycard() {
   useEffect(() => {
     axios.get("/pizzadata.json").then((response) => {
       setdata(response.data);
-      
-      setloading(false)
+
+      setloading(false);
     });
   }, []);
 

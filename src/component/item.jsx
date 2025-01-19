@@ -18,7 +18,6 @@ export default function Item() {
     axios
       .get("/pizzadata.json")
       .then((response) => {
-        console.log(response.data);
         setdata(response.data);
       })
       .catch((error) => {
