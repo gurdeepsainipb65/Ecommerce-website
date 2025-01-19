@@ -2,6 +2,7 @@ import CardBlog from "../cards/cardblog";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Footer from "../cards/footer";
+import { useParams } from "react-router-dom";
 
 export default function Blog1() {
   const [data, setdata] = useState([]);

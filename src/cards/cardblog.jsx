@@ -1,11 +1,12 @@
 import Readbutton from "./readbutton";
 import Aos from "aos";
+import React from "react";
+import { useParams } from "react-router-dom";
 
 export default function CardBlog({ image, content }) {
   return (
     <div
-      data-aos="fade-up"
-      data-aos-duration="1500"
+    data-aos="fade-up" data-aos-duration="1000"
       className="h-auto bg-red-50 w-full flex flex-col justify-center items-center text-black p-4"
     >
       <img className="h-52 w-72 p-4 " src={image} alt="" />

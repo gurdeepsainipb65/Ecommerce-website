@@ -7,7 +7,7 @@ export default function Footer() {
     <div
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
-      data-aos-duration="1500"
+      data-aos-duration="1000"
       className="bg-gray-900"
     >
       <div className=" p-2 font-bold container mx-auto">
