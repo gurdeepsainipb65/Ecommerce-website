@@ -18,6 +18,7 @@ export default function Blog1() {
           <CardBlog key={index} image={item.image} content={item.content} />
         ))}
       </div>
+
       <Footer />
     </div>
   );
