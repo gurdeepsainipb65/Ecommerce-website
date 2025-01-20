@@ -6,11 +6,16 @@ import { useParams } from "react-router-dom";
 
 export default function Blog1() {
   const [data, setdata] = useState([]);
+  const [loading, setloading] = useState(true);
   useEffect(() => {
     axios.get("/Blogdata.json").then((response) => {
       setdata(response.data);
+      setloading(false)
     });
   }, []);
+  if (loading) {
+    return <div>Loading...</div>;
+  }
   return (
     <div>
       <div className="grid grid-cols-1 lg:grid-cols-3 w-full p-2">
