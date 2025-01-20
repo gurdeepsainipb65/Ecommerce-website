@@ -8,10 +8,11 @@ export default function Blog1() {
   const [loading, setloading] = useState(true);
   useEffect(() => {
     axios.get("/Blogdata.json").then((response) => {
-      setblogs(response.data || []);
+      setblogs(response.data);
+      console.log(blogs)
       setloading(false);
     });
-  }, []);
+  }, [loading]);
   if (loading) {
     return <div>Loading...</div>;
   }
