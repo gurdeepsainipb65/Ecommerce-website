@@ -12,14 +12,14 @@ export default function Blog1() {
       console.log(blogs)
       setloading(false);
     });
-  }, [loading]);
+  }, []);
   if (loading) {
     return <div>Loading...</div>;
   }
   return (
     <div>
       <div className="grid grid-cols-1 lg:grid-cols-3 w-full p-2">
-        {blogs.map((item, index) => (
+        {blogs && blogs.map((item, index) => (
           <div key={index}>
             <CardBlog image={item.image} content={item.content} />
           </div>
