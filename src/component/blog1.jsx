@@ -8,7 +8,7 @@ export default function Blog1() {
   const [loading, setloading] = useState(true);
   useEffect(() => {
     axios.get("/Blogdata.json").then((response) => {
-      setdata(response.data);
+      setdata(response.data || []);
       setloading(false);
     });
   }, []);
