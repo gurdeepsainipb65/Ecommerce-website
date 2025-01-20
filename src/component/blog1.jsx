@@ -12,7 +12,7 @@ export default function Blog1() {
       console.log(blogs)
       setloading(false);
     });
-  }, []);
+  }, [loading]);
   if (loading) {
     return <div>Loading...</div>;
   }
