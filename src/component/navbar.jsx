@@ -53,6 +53,17 @@ export default function Nav() {
                 <Link to="/contactus" className="hover:text-red-600">
                   <li>CONTACT US +</li>
                 </Link>
+                <Link to="/cart">
+                  <img
+                    className="h-14 w-16"
+                    src="\image\delivery.png"
+                    alt="delhivery"
+                  />
+                </Link>
+
+                <Link to="/cart">
+                  <img className="h-8 w-8" src="\image\cart.svg" alt="cart" />
+                </Link>
               </div>
 
               {/* Hamburger Button for Mobile */}
@@ -61,6 +72,9 @@ export default function Nav() {
                   <img className="h-8 w-8" src="/image/menu.svg" alt="Menu" />
                 </button>
                 <img src="\image\logoWhite.svg" alt="" />
+                <Link to="/cart">
+                  <img className="h-8 w-8" src="\image\cart.svg" alt="cart" />
+                </Link>
               </div>
 
               {/* Mobile Navigation Links (Initially Hidden) */}
