@@ -9,7 +9,7 @@ export default function Blog1() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get("/pizzadata.json")
+    axios.get("/pizzablogdata.json")
       .then((response) => {
         if (Array.isArray(response.data)) {
           setBlogs(response.data);
