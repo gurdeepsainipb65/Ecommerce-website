@@ -19,7 +19,9 @@ export default function Blog1() {
     <div>
       <div className="grid grid-cols-1 lg:grid-cols-3 w-full p-2">
         {blogs.map((item, index) => (
-          <CardBlog key={index} image={item.image} content={item.content} />
+          <div key={index}>
+            <CardBlog image={item.image} content={item.content} />
+          </div>
         ))}
       </div>
 
