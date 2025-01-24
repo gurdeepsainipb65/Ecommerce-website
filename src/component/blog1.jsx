@@ -36,7 +36,7 @@ export default function Blog1() {
 
   return (
     <div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 w-full p-2">
+      <div className="grid gap-2 grid-cols-1 lg:grid-cols-3 w-full bg-red-50 p-2">
         {blogs.length > 0 ? (
           blogs.map((item, index) => (
             <div key={index}>

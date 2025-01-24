@@ -7,7 +7,7 @@ export default function Nav() {
     setmenu(!menu);
   }
   return (
-    <div className="flex flex-col lg:flex-row w-full h-auto">
+    <div className="flex flex-col lg:flex-row w-full">
       {/* Logo Section */}
       <div className=" hidden w-full lg:w-1/5 lg:flex justify-center lg:justify-start">
         <img
@@ -18,9 +18,9 @@ export default function Nav() {
       </div>
 
       {/* Main Content */}
-      <div className="w-full text-white bg-black">
+      <div className="w-full text-white">
         {/* Top Banner: Opening times & social media links */}
-        <div className="flex flex-wrap justify-between items-center h-auto px-4 sm:px-6 lg:px-10 p-2 bg-red-600 text-xs sm:text-sm lg:text-base">
+        <div className="z-50 relative flex flex-wrap justify-between items-center h-auto px-4 sm:px-6 lg:px-10 p-2 bg-red-600 text-xs sm:text-sm lg:text-base">
           <div className="w-full sm:w-auto text-center sm:text-left">
             Exact opening times: 09:00 am - 06:00 pm
           </div>
@@ -35,7 +35,7 @@ export default function Nav() {
         {/* Navbar Section */}
         <div className="bg-gray-900">
           <nav>
-            <ul className=" bg-black flex flex-col lg:flex-row justify-between items-center px-4 sm:px-6 lg:px-8 py-4 font-bold text-sm sm:text-base lg:text-lg space-y-4 lg:space-y-0">
+            <ul className="relative w-full  flex flex-col lg:flex-row justify-between items-center lg:px-8 py-0 md:py-4 font-bold text-sm sm:text-base lg:text-lg  lg:space-y-0">
               {/* Desktop Navigation Links */}
               <div className="hidden lg:flex items-center gap-10">
                 <Link to="/" className="hover:text-red-600">
@@ -67,9 +67,17 @@ export default function Nav() {
               </div>
 
               {/* Hamburger Button for Mobile */}
-              <div className="flex justify-between items-center gap-14 lg:hidden">
+              <div className="bg-gray-900 h-full w-full px-4 flex z-50 justify-between items-center gap-14 lg:hidden py-4">
                 <button onClick={Toggle}>
-                  <img className="h-8 w-8" src="/image/menu.svg" alt="Menu" />
+                  {menu ? (
+                    <img
+                      className="h-14 w-8"
+                      src="\image\closebutton.svg"
+                      alt="Close"
+                    />
+                  ) : (
+                    <img className="h-8 w-8" src="/image/menu.svg" alt="Menu" />
+                  )}
                 </button>
                 <img src="\image\logoWhite.svg" alt="" />
                 <Link to="/cart">
@@ -78,8 +86,10 @@ export default function Nav() {
               </div>
 
               {/* Mobile Navigation Links (Initially Hidden) */}
-              <div className={`${menu ? "block" : "hidden"} lg:hidden w-full`}>
-                <ul className="flex flex-col items-center space-y-4">
+              <div
+                className={`${menu ? "translate-y-0" : "-translate-y-full"} top-[5.5rem] p-10 absolute bg-gray-900 transform z-40 duration-700 lg:hidden w-full`}
+              >
+                <ul className="flex flex-col items-start space-y-4">
                   <Link to="/" className="hover:text-red-600">
                     <li>Home +</li>
                   </Link>
