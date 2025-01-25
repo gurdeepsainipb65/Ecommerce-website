@@ -87,7 +87,7 @@ export default function Nav() {
 
               {/* Mobile Navigation Links (Initially Hidden) */}
               <div
-                className={`${menu ? "translate-y-0" : "-translate-y-full"} top-[5.5rem] p-10 absolute bg-gray-900 transform z-40 duration-700 lg:hidden w-full`}
+                className={`${menu ? "translate-y-0" : "-translate-y-full"} top-[5.5rem] p-10 absolute bg-gray-900 transform z-40 duration-700 lg:hidden w-full `}
               >
                 <ul className="flex flex-col items-start space-y-4">
                   <Link to="/" className="hover:text-red-600">

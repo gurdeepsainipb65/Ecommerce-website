@@ -4,15 +4,28 @@ import axios from "axios";
 import CheifCard from "../cards/chef";
 import TestimonialSection from "../cards/testimonial";
 import Footer from "../cards/footer";
+import Loader from "../cards/loader";
 
 export default function Aboutus() {
   const [data, setdata] = useState([]);
+  const [loading, setloading] = useState(true);
   useEffect(() => {
     axios.get("/chef.json").then((response) => {
       setdata(response.data);
       console.log(data);
+      setTimeout(() => {
+        setloading(false)
+      }, 1000);
     });
   }, []);
+
+  if (loading) {
+    return (
+      <div className="h-[72vh] flex justify-center items-center">
+        <Loader />
+      </div>
+    );
+  }
   return (
     <div>
       <div className="w-full flex text-4xl p-8 text-red-700 font-extrabold justify-center items-center">

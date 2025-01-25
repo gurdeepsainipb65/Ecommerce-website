@@ -2,6 +2,7 @@ import CardBlog from "../cards/cardblog";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import Footer from "../cards/footer";
+import Loader from "../cards/loader";
 
 export default function Blog1() {
   const [blogs, setBlogs] = useState([]);
@@ -17,7 +18,10 @@ export default function Blog1() {
           setBlogs([]);
           console.error("Unexpected response format:", response.data);
         }
-        setLoading(false);
+        setTimeout(() => {
+          setLoading(false);
+        }, 1000);
+        
       })
       .catch((err) => {
         console.error("Error fetching blogs:", err);
@@ -27,7 +31,9 @@ export default function Blog1() {
   }, []);
 
   if (loading) {
-    return <div className="text-center text-gray-600">Loading...</div>;
+    return <div className="h-[72vh] flex justify-center items-center" >
+      <Loader/>
+    </div>;
   }
 
   if (error) {

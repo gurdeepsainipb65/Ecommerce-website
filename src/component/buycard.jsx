@@ -10,18 +10,12 @@ AOS.init();
 
 export default function Buycard() {
   const [data, setdata] = useState([]);
-  const [loading, setloading] = useState(true);
   useEffect(() => {
     axios.get("/pizzadata.json").then((response) => {
       setdata(response.data);
-
-      setloading(false);
     });
   }, []);
 
-  if (loading) {
-    return <div>loading...</div>;
-  }
   return (
     <div className="container mx-auto flex flex-col gap-5 py-8">
       <h1 className="text-center text-4xl font-semibold capitalize text-red-500">
