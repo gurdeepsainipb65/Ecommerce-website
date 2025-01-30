@@ -139,6 +139,16 @@ export default function Footer() {
               <span>Saturday</span>{" "}
               <span className="text-orange-500">: 8am to 12am</span>
             </li>
+            <li>
+              <Link to="/orderhistory" className="hover:text-red-600">
+                <li>ORDER HISTORY +</li>
+              </Link>
+            </li>
+            <li>
+              <Link to="/cart" className="hover:text-red-600" >
+                <p>YOUR CART +</p>
+              </Link>
+            </li>
           </ul>
           <div>
             <img src="\image\footer.png" alt="" />

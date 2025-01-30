@@ -53,6 +53,9 @@ export default function Nav() {
                 <Link to="/contactus" className="hover:text-red-600">
                   <li>CONTACT US +</li>
                 </Link>
+                <Link to="/orderhistory" className="hover:text-red-600">
+                  <li>ORDER HISTORY +</li>
+                </Link>
                 <Link to="/cart">
                   <img
                     className="h-14 w-16"
@@ -91,19 +94,22 @@ export default function Nav() {
               >
                 <ul className="flex flex-col items-start space-y-4">
                   <Link to="/" className="hover:text-red-600">
-                    <li>Home +</li>
+                    <li>HOME +</li>
                   </Link>
                   <Link to="/aboutus" className="hover:text-red-600">
-                    <li>About Us +</li>
+                    <li>ABOUT US +</li>
                   </Link>
                   <Link to="/shop" className="hover:text-red-600">
-                    <li>Shop +</li>
+                    <li>SHOP +</li>
                   </Link>
                   <Link to="/blog" className="hover:text-red-600">
                     <li>BLOGS +</li>
                   </Link>
                   <Link to="/contactus" className="hover:text-red-600">
                     <li>CONTACT US +</li>
+                  </Link>
+                  <Link to="/orderhistory" className="hover:text-red-600">
+                    <li>ORDER HISTORY +</li>
                   </Link>
                 </ul>
               </div>

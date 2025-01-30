@@ -49,9 +49,10 @@ const CartItem = ({ cartItems, updateQuantity, removeItem }) => {
         </ul>
         <div className="mt-6 text-right">
           <h3 className="text-xl font-semibold text-gray-800">Total: ${calculateTotal()}</h3>
-          <button className="mt-4 px-6 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-800 transition">
+          <Link to="/orderpage" ><button className="mt-4 px-6 py-3 bg-red-600 text-white font-bold rounded-lg hover:bg-red-800 transition">
             Proceed to Checkout
           </button>
+          </Link>
         </div>
       </div>
     )}

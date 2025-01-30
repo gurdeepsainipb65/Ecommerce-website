@@ -6,6 +6,7 @@ import Shop1 from "./component/Shop1";
 import ProductDetail from "./cards/ProductDetail";
 import Blog1 from "./component/blog1";
 import Cart from "./component/Cart";
+import OrderHistory from "./cards/orderpage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Aboutus from "./component/aboutus";
@@ -23,6 +24,7 @@ function App() {
           <Route path="/blog" element={<Blog1 />}></Route>
           <Route path="/contactus" element={<Contact/>}></Route>
           <Route path="/cart" element={<Cart/>}></Route>
+          <Route path="/orderhistory" element={<OrderHistory/>}></Route>
         </Routes>
       </Router>
     </div>
