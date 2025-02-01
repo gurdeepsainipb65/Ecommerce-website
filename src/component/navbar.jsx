@@ -35,7 +35,7 @@ export default function Nav() {
         {/* Navbar Section */}
         <div className="bg-gray-900">
           <nav>
-            <ul className="relative w-full  flex flex-col lg:flex-row justify-between items-center lg:px-8 py-0 md:py-4 font-bold text-sm sm:text-base lg:text-lg  lg:space-y-0">
+            <ul className="relative w-full flex flex-col lg:flex-row justify-between items-center lg:px-8 py-0 md:py-4 font-bold text-sm sm:text-base lg:text-base  lg:space-y-0">
               {/* Desktop Navigation Links */}
               <div className="hidden lg:flex items-center gap-10">
                 <Link to="/" className="hover:text-red-600">
@@ -56,16 +56,13 @@ export default function Nav() {
                 <Link to="/orderhistory" className="hover:text-red-600">
                   <li>ORDER HISTORY +</li>
                 </Link>
-                <Link to="/cart">
-                  <img
-                    className="h-14 w-16"
-                    src="\image\delivery.png"
-                    alt="delhivery"
-                  />
-                </Link>
 
                 <Link to="/cart">
                   <img className="h-8 w-8" src="\image\cart.svg" alt="cart" />
+                </Link>
+
+                <Link to="/login">
+                  <button>Login/Signup</button>
                 </Link>
               </div>
 
